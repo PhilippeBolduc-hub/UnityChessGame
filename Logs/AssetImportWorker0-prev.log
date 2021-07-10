@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 12030 MB
+OS: 'Windows 10 Home; OS build 19042.1083; Version 2009; 64bit' Language: 'en' Physical Memory: 12030 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/GitHubProjects/UnityChessGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56584
+57926
 Successfully changed project path to: C:/GitHubProjects/UnityChessGame
 C:/GitHubProjects/UnityChessGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -35,40 +35,40 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001700 seconds.
+Registered in 0.001705 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 28.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.906 seconds
+- Completed reload, in  1.162 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002462 seconds.
+Registered in 0.002643 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.820 seconds
+- Completed reload, in  1.067 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.5 MB.
+System memory in use after: 66.6 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1824.
-Total: 2.101300 ms (FindLiveObjects: 0.112800 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.860900 ms  DeleteObjects: 0.090000 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1854.
+Total: 1.774000 ms (FindLiveObjects: 0.117300 ms CreateObjectMapping: 0.034000 ms MarkObjects: 1.520900 ms  DeleteObjects: 0.100300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -83,553 +83,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/Wooden floor/Wooden floor 01/Wooden floor normal.tga
-  artifactKey: Guid(4ee2b7fdbd28a6c488200be86572be5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 01/Wooden floor normal.tga using Guid(4ee2b7fdbd28a6c488200be86572be5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde54f1b6ebdad11772a638ce0c3b5d7') in 0.099321 seconds 
-  Import took 0.102124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 01/Wooden floor 01.mat
-  artifactKey: Guid(b5198f8af2f2fb74d81edc8ca9d255ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 01/Wooden floor 01.mat using Guid(b5198f8af2f2fb74d81edc8ca9d255ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bf190753d4000c9444e142c4a53ce6') in 0.231910 seconds 
-  Import took 0.234070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 01/Wooden floor diffuse.tga
-  artifactKey: Guid(cd80b1a4d37ec0d44a2a9a70219c67a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 01/Wooden floor diffuse.tga using Guid(cd80b1a4d37ec0d44a2a9a70219c67a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95771b20c6fdbca33075bef6f382ed53') in 0.015837 seconds 
-  Import took 0.018640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.185010 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 02/Wooden floor 02.mat
-  artifactKey: Guid(909ba812e840a4c4399dd2bf9ed67a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 02/Wooden floor 02.mat using Guid(909ba812e840a4c4399dd2bf9ed67a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d3066f7425a4489ab66dbcf81f7e91') in 0.043544 seconds 
-  Import took 0.046358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 02/Wooden floor diffuse.tga
-  artifactKey: Guid(c10d183773495b0449ef26024d83f3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 02/Wooden floor diffuse.tga using Guid(c10d183773495b0449ef26024d83f3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e5a3dc4e0b6e8e42756649fb818df3') in 0.014329 seconds 
-  Import took 0.017055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 02/Wooden floor normal.tga
-  artifactKey: Guid(b3ad2935b3b9c354faa5e4e7edef5330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 02/Wooden floor normal.tga using Guid(b3ad2935b3b9c354faa5e4e7edef5330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a6a0ac252b12ff131023e72feae36b') in 0.017817 seconds 
-  Import took 0.020089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.255092 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 03/Wooden floor 03.mat
-  artifactKey: Guid(7e181fd161a9d4c41a7d09c87806d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 03/Wooden floor 03.mat using Guid(7e181fd161a9d4c41a7d09c87806d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b32e1a86e3fb5cf1c5e9bfdea6624e4') in 0.034430 seconds 
-  Import took 0.037160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000502 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 03/Wooden floor normal.tga
-  artifactKey: Guid(8c0d549c01875c34dae18facc22c0f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 03/Wooden floor normal.tga using Guid(8c0d549c01875c34dae18facc22c0f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb064ccc4a0f545cdf439d7945166b68') in 0.011292 seconds 
-  Import took 0.013306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 03/Wooden floor diffuse.tga
-  artifactKey: Guid(6c631a00e581dcf41a1aaf4f51ae99a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 03/Wooden floor diffuse.tga using Guid(6c631a00e581dcf41a1aaf4f51ae99a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be244c1847c84d23a7578fca520c8b0') in 0.021201 seconds 
-  Import took 0.024475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.135433 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 04/Wooden floor 04.mat
-  artifactKey: Guid(585b99b5dc612124e94345db68b4544a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 04/Wooden floor 04.mat using Guid(585b99b5dc612124e94345db68b4544a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdcd378361f3b4809aa0fc9b409b4b1') in 0.036112 seconds 
-  Import took 0.038644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 04/Wooden floor normal.tga
-  artifactKey: Guid(c07f07b1fda14b84b9f27b58f0a957e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 04/Wooden floor normal.tga using Guid(c07f07b1fda14b84b9f27b58f0a957e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5536797bc3ec31e676f4d1790ce267a') in 0.015220 seconds 
-  Import took 0.017490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 04/Wooden floor diffuse.tga
-  artifactKey: Guid(539e440f4713d8942abdef5d2853d5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 04/Wooden floor diffuse.tga using Guid(539e440f4713d8942abdef5d2853d5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a3305bd01de7cd4c94ec397eb2e98e') in 0.015556 seconds 
-  Import took 0.018277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.414275 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 05/Wooden floor 05.mat
-  artifactKey: Guid(18f616d90077f55439a996dc6e804862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 05/Wooden floor 05.mat using Guid(18f616d90077f55439a996dc6e804862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3adc8cf59ca47db5659bb3513d4f7a') in 0.042074 seconds 
-  Import took 0.045517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000535 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 05/Wooden floor diffuse.tga
-  artifactKey: Guid(f5cc0b5174cb51f439cf34137586e583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 05/Wooden floor diffuse.tga using Guid(f5cc0b5174cb51f439cf34137586e583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddf6738fcb3f54945d33b0eb4f86e03') in 0.011050 seconds 
-  Import took 0.013354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001265 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 05/Wooden floor normal.tga
-  artifactKey: Guid(46ac2557224ef2747bddc416b5343d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 05/Wooden floor normal.tga using Guid(46ac2557224ef2747bddc416b5343d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8faa440cb7c1e6095453540fac61570') in 0.016118 seconds 
-  Import took 0.020377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.543931 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 05
-  artifactKey: Guid(eafe94e2e9eba8d40981fcfd9c4abc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 05 using Guid(eafe94e2e9eba8d40981fcfd9c4abc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9ad669b7104cdfd7f2d2831d5da45d') in 0.009470 seconds 
-  Import took 0.011938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009407 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 05
-  artifactKey: Guid(eafe94e2e9eba8d40981fcfd9c4abc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 05 using Guid(eafe94e2e9eba8d40981fcfd9c4abc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9ad669b7104cdfd7f2d2831d5da45d') in 0.002437 seconds 
-  Import took 0.005394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.961951 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 06
-  artifactKey: Guid(8ea174ba2152b95468c39d4f1fec20d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 06 using Guid(8ea174ba2152b95468c39d4f1fec20d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5f68e00dcb3f619feef1db31dc7734') in 0.008614 seconds 
-  Import took 0.011403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028841 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 06/Wooden floor 06.mat
-  artifactKey: Guid(1915ad50456855041a24dd2f99ea40b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 06/Wooden floor 06.mat using Guid(1915ad50456855041a24dd2f99ea40b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174f69cdeb5da859d1a80e5fa314fd78') in 0.033728 seconds 
-  Import took 0.036259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 06/Wooden floor diffuse.tga
-  artifactKey: Guid(bb7716d533ec35649960e14e5e68cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 06/Wooden floor diffuse.tga using Guid(bb7716d533ec35649960e14e5e68cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5887cdddbaa348ac024da1c055e481eb') in 0.019101 seconds 
-  Import took 0.021246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 06/Wooden floor normal.tga
-  artifactKey: Guid(003dcb26b5c73f548b3eee54e3b24b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 06/Wooden floor normal.tga using Guid(003dcb26b5c73f548b3eee54e3b24b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f473a4de138c4a2a22de9ed498cae50d') in 0.012926 seconds 
-  Import took 0.015506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.154280 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 07
-  artifactKey: Guid(e0125219347071a449939bcc6d5c22b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 07 using Guid(e0125219347071a449939bcc6d5c22b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef99d8c24813ab2eabdf87687f730fa7') in 0.007619 seconds 
-  Import took 0.010433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029035 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 07/Wooden floor 07.mat
-  artifactKey: Guid(18a35e570e04b5e4bbbe952c545bf56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 07/Wooden floor 07.mat using Guid(18a35e570e04b5e4bbbe952c545bf56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccb6f9a86568ce5e227d9365fa6adbe') in 0.040850 seconds 
-  Import took 0.043360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 07/Wooden floor normal.tga
-  artifactKey: Guid(e773a861543c2b44b994344f049590a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 07/Wooden floor normal.tga using Guid(e773a861543c2b44b994344f049590a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1617d7737a0b0f93b6d3b4ff53ae23e4') in 0.017773 seconds 
-  Import took 0.020296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 07/Wooden floor diffuse.tga
-  artifactKey: Guid(d92bcd9184715b0458297b2e72b7fee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 07/Wooden floor diffuse.tga using Guid(d92bcd9184715b0458297b2e72b7fee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02dadf0c6df5301df31be19f24e31e99') in 0.014359 seconds 
-  Import took 0.017085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.596941 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 08
-  artifactKey: Guid(881fcd2bcc4c91443b9206383ef7c18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 08 using Guid(881fcd2bcc4c91443b9206383ef7c18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3ab8a40f3b9ede691c29b26b9d3a44') in 0.007146 seconds 
-  Import took 0.009916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028452 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 08/Wooden floor 08.mat
-  artifactKey: Guid(d37a5cbead14fdb45b40ff3e2093be3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 08/Wooden floor 08.mat using Guid(d37a5cbead14fdb45b40ff3e2093be3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ac46157f2f93c0e89a6f6d6450ffa0') in 0.033834 seconds 
-  Import took 0.036318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 08/Wooden floor diffuse.tga
-  artifactKey: Guid(899f06fe9b3b7ad4c86287efb479db5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 08/Wooden floor diffuse.tga using Guid(899f06fe9b3b7ad4c86287efb479db5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c8a23cbcd74c7671b2adaedf5104df') in 0.011116 seconds 
-  Import took 0.013215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 08/Wooden floor normal.tga
-  artifactKey: Guid(3cc8bad26f300f54cb986fd885f2548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 08/Wooden floor normal.tga using Guid(3cc8bad26f300f54cb986fd885f2548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5f78b5cd10bd5caf7d1b45e95e9505') in 0.016314 seconds 
-  Import took 0.019622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.793949 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 09
-  artifactKey: Guid(c498f9279823b754099ea736475df36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 09 using Guid(c498f9279823b754099ea736475df36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1938f8f4b134301fc3b0cae74e06a651') in 0.007799 seconds 
-  Import took 0.010603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029065 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 09/Wooden floor 09.mat
-  artifactKey: Guid(a62c2d4255dc1544eb8d146690fa6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 09/Wooden floor 09.mat using Guid(a62c2d4255dc1544eb8d146690fa6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b196ad86e8d9ccc695c516f086ba2665') in 0.038497 seconds 
-  Import took 0.040817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 09/Wooden floor normal.tga
-  artifactKey: Guid(27918644b59859f4188ea93c72064f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 09/Wooden floor normal.tga using Guid(27918644b59859f4188ea93c72064f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d201b46436a1162e6e04d25a5c52a91') in 0.014077 seconds 
-  Import took 0.016473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 09/Wooden floor diffuse.tga
-  artifactKey: Guid(74a23c6ab1998924a998bd68d7ae1371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 09/Wooden floor diffuse.tga using Guid(74a23c6ab1998924a998bd68d7ae1371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6c8195a77e9296cc6f3100205a20b1') in 0.013319 seconds 
-  Import took 0.016147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.198724 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 10
-  artifactKey: Guid(b1f98937fa27c3d429ec585ad1567597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 10 using Guid(b1f98937fa27c3d429ec585ad1567597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08094fffd94937def58bbf348c2991fc') in 0.007751 seconds 
-  Import took 0.010358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028930 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 10/Wooden floor 10.mat
-  artifactKey: Guid(1db0e90b9a3b07943b75591b4e452a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 10/Wooden floor 10.mat using Guid(1db0e90b9a3b07943b75591b4e452a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8494cf462cf8db5ff30dec4f3cb8e890') in 0.035618 seconds 
-  Import took 0.039311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 10/Wooden floor normal.tga
-  artifactKey: Guid(42c62ba450b3a314da495fe7dbc01b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 10/Wooden floor normal.tga using Guid(42c62ba450b3a314da495fe7dbc01b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca311b263a7cb87067046cd1bf104a4') in 0.012923 seconds 
-  Import took 0.017314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 10/Wooden floor diffuse.tga
-  artifactKey: Guid(c78ef30b15d438d479e9521f28432bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 10/Wooden floor diffuse.tga using Guid(c78ef30b15d438d479e9521f28432bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c32de57882f24fa1db5c69dcf92f81e') in 0.012405 seconds 
-  Import took 0.015341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.923021 seconds.
-  path: Assets/Models/Table & Chair/Prefabs
-  artifactKey: Guid(9365346b6ea2c2a4ab919b9aa28c38e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Table & Chair/Prefabs using Guid(9365346b6ea2c2a4ab919b9aa28c38e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916150f9b1e811666ceb83dc67603b41') in 0.008619 seconds 
-  Import took 0.011132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032233 seconds.
-  path: Assets/Models/Table & Chair/Prefabs/ClassicKitchenChair2.prefab
-  artifactKey: Guid(c6b698bafc4b05c43a452c3d6dfeb206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Table & Chair/Prefabs/ClassicKitchenChair2.prefab using Guid(c6b698bafc4b05c43a452c3d6dfeb206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a498508dec651f3332640e77187cb5') in 0.305621 seconds 
-  Import took 0.308028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/Models/Table & Chair/Prefabs/PlateWithFruit.prefab
-  artifactKey: Guid(49f1b2a095d7cc74e8dd6f00fefa1e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Table & Chair/Prefabs/PlateWithFruit.prefab using Guid(49f1b2a095d7cc74e8dd6f00fefa1e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e32dce25a7752645c9ef8e453ad3b83') in 0.298590 seconds 
-  Import took 0.300745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Models/Table & Chair/Prefabs/ClassicRoundTable1.prefab
-  artifactKey: Guid(8abce429b9303e14bbc71a3cb6c5cc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Table & Chair/Prefabs/ClassicRoundTable1.prefab using Guid(8abce429b9303e14bbc71a3cb6c5cc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702daae80a53b17f3c6d360a978946ae') in 0.060534 seconds 
-  Import took 0.062717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.524432 seconds.
-  path: Assets/Models/Table & Chair/Models
-  artifactKey: Guid(3f7041321f637b54a8d8ffd59266a2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Table & Chair/Models using Guid(3f7041321f637b54a8d8ffd59266a2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4222b5e1f01ae08c25937505a3515789') in 0.006965 seconds 
-  Import took 0.009684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035399 seconds.
-  path: Assets/Models/Table & Chair/Models/ClassicKitchenChair2.FBX
-  artifactKey: Guid(34844fab031efd7428463c208a0e841d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Table & Chair/Models/ClassicKitchenChair2.FBX using Guid(34844fab031efd7428463c208a0e841d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2150d6ea0a9f68afe97eda215b51d7a1') in 0.099210 seconds 
-  Import took 0.101428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Models/Table & Chair/Models/PlateWithFruit.FBX
-  artifactKey: Guid(cd5c017944fa8324387550344af1aa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Table & Chair/Models/PlateWithFruit.FBX using Guid(cd5c017944fa8324387550344af1aa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd841a34d8c1123e840ce9f19baa1ae4') in 0.028471 seconds 
-  Import took 0.030611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Models/Table & Chair/Models/ClassicRoundTable1.FBX
-  artifactKey: Guid(bd168fc019fa5de48a06efa8fb94aefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Table & Chair/Models/ClassicRoundTable1.FBX using Guid(bd168fc019fa5de48a06efa8fb94aefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1195941d78954713d1b687662613f295') in 0.029931 seconds 
-  Import took 0.032004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 364.622152 seconds.
-  path: Assets/Models/Chess Set/README.txt
-  artifactKey: Guid(fb56268ea81c3c54bac9e04a680d5272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/README.txt using Guid(fb56268ea81c3c54bac9e04a680d5272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e27bdfc0f80944834d8ad24172fffc') in 0.010811 seconds 
-  Import took 0.014129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.807742 seconds.
-  path: Assets/Models/Chess Set/Board
-  artifactKey: Guid(a54e9288ac6a0f049b10177ecf1bfdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Board using Guid(a54e9288ac6a0f049b10177ecf1bfdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8d44f7b4f82d1551291e9d9eae3aa0') in 0.015132 seconds 
-  Import took 0.017400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.961434 seconds.
-  path: Assets/Models/Chess Set/Board/Prefabs
-  artifactKey: Guid(6e2c5fe1debfc5c48a4eb9bc82db38c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Board/Prefabs using Guid(6e2c5fe1debfc5c48a4eb9bc82db38c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5df0b3deb67c1ba9fe4b322093f747') in 0.002564 seconds 
-  Import took 0.005164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022642 seconds.
-  path: Assets/Models/Chess Set/Board/Prefabs/Board.prefab
-  artifactKey: Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Board/Prefabs/Board.prefab using Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff526f9990db2dd8d58a80b69e295edc') in 0.042520 seconds 
-  Import took 0.045338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 746.588880 seconds.
-  path: Assets/Models/Chess Set/Board/Prefabs/Board.prefab
-  artifactKey: Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Board/Prefabs/Board.prefab using Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729c0104298f2fcd2a4746b2f2358a4b') in 0.010350 seconds 
-  Import took 0.013466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.841501 seconds.
-  path: Assets/Models/Chess Set/Board/Prefabs/Board.prefab
-  artifactKey: Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Board/Prefabs/Board.prefab using Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405178f502ac542a92162ccc56623367') in 0.013264 seconds 
-  Import took 0.016398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.010133 seconds.
-  path: Assets/Models/Chess Set/Board/Prefabs/Board.prefab
-  artifactKey: Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Board/Prefabs/Board.prefab using Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabc245498bd9ee574f9ade5bf174e58') in 0.012962 seconds 
-  Import took 0.015619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.812616 seconds.
-  path: Assets/Models/Chess Set/Board/Prefabs/Board.prefab
-  artifactKey: Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Board/Prefabs/Board.prefab using Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf35cad3d6a11cce5de3a3b5a84249c') in 0.013953 seconds 
-  Import took 0.017183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.999173 seconds.
-  path: Assets/Models/Chess Set/Board/Prefabs/Board.prefab
-  artifactKey: Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Board/Prefabs/Board.prefab using Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8931c32932d9a05554ba266f1954f0d3') in 0.016365 seconds 
-  Import took 0.019040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.431691 seconds.
-  path: Assets/Models/Chess Set/Board/Prefabs/Board.prefab
-  artifactKey: Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Board/Prefabs/Board.prefab using Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1faed6f7ef820d46a48e468e2ffd4a1f') in 0.009676 seconds 
-  Import took 0.012214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 266.110083 seconds.
-  path: Assets/Models/Table & Chair/Demo/Default.mat
-  artifactKey: Guid(619c8293f865e3e4bb44226b5e43a1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Table & Chair/Demo/Default.mat using Guid(619c8293f865e3e4bb44226b5e43a1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f7096a80d28999b4bc9d01c76049f2') in 0.020621 seconds 
-  Import took 0.023463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 372.818582 seconds.
-  path: Assets/Models/Chess Set/Board/Prefabs/Board.prefab
-  artifactKey: Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Board/Prefabs/Board.prefab using Guid(5b856ec4f8f8cb84f861f8f8a026c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a0d907e1e2e30306536fcfdc29055a') in 0.012043 seconds 
-  Import took 0.014796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 140.523908 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 03
-  artifactKey: Guid(8c2bdfb4dbbbe074eb8d3e501e5dad76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 03 using Guid(8c2bdfb4dbbbe074eb8d3e501e5dad76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3b64c7400c62c229b34d2234ed44a6') in 0.009215 seconds 
-  Import took 0.011740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 278.284997 seconds.
-  path: Assets/Models/Table & Chair/Materials/ClassicKitchenChair2.mat
-  artifactKey: Guid(10abe150740a3f74d86a66a20ccf29a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Table & Chair/Materials/ClassicKitchenChair2.mat using Guid(10abe150740a3f74d86a66a20ccf29a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7956cf29b75456aa6ff159b024f267b5') in 0.022753 seconds 
-  Import took 0.025601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Models/Table & Chair/Materials/PlateWithFruit_base.mat
-  artifactKey: Guid(246a9c06b61dce044ac4f83bd7461fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Table & Chair/Materials/PlateWithFruit_base.mat using Guid(246a9c06b61dce044ac4f83bd7461fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3b5e9cd76f3bce59c034c0f874ce7f') in 0.031941 seconds 
-  Import took 0.034480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/Models/Table & Chair/Materials/PlateWithFruit_glass.mat
-  artifactKey: Guid(9e443b774127d364e8de7f8fbf1d2680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Table & Chair/Materials/PlateWithFruit_glass.mat using Guid(9e443b774127d364e8de7f8fbf1d2680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac445f906b3f314b0b4d7eb8989cd82f') in 0.020161 seconds 
-  Import took 0.022999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Models/Table & Chair/Materials/ClassicRoundTable1.mat
-  artifactKey: Guid(196f7ca85378c624aa1978ded1b983e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Table & Chair/Materials/ClassicRoundTable1.mat using Guid(196f7ca85378c624aa1978ded1b983e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46aaab0134a143b7615816d1eea65594') in 0.027036 seconds 
-  Import took 0.029437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 838.394345 seconds.
-  path: Assets/Models/Chess Set/Rook/Mesh/rook.fbx
-  artifactKey: Guid(4c7fefe9f4d55e44398c01a6266ef093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Rook/Mesh/rook.fbx using Guid(4c7fefe9f4d55e44398c01a6266ef093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a872a639132512405e140959d5eeae') in 0.060003 seconds 
-  Import took 0.063454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/Models/Chess Set/Queen/Mesh/queen.fbx
-  artifactKey: Guid(8d213db23e89f6b4fa3d427f07a32b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Queen/Mesh/queen.fbx using Guid(8d213db23e89f6b4fa3d427f07a32b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0621da5599bb4b5359d71d77d03b5e') in 0.049354 seconds 
-  Import took 0.051752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.244453 seconds.
-  path: Assets/Models/Chess Set/Knight/Mesh/knight.fbx
-  artifactKey: Guid(3d375d4a1907b3f4098bb64446492fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Knight/Mesh/knight.fbx using Guid(3d375d4a1907b3f4098bb64446492fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f9413a802e5b3200e2d7927a4cc53f') in 0.054662 seconds 
-  Import took 0.057517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000619 seconds.
-  path: Assets/Models/Chess Set/Pawn/Mesh/pawn.fbx
-  artifactKey: Guid(1ae3b6cad3254b848942cea678f244c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Pawn/Mesh/pawn.fbx using Guid(1ae3b6cad3254b848942cea678f244c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a2627b73d79890456ab635abad46de') in 0.041682 seconds 
-  Import took 0.043913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.014045 seconds.
-  path: Assets/Models/Chess Set/King/Mesh/king.fbx
-  artifactKey: Guid(0d4dc18442ed9d14698239a5a964f27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/King/Mesh/king.fbx using Guid(0d4dc18442ed9d14698239a5a964f27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741967790d558a157b6b167fa0a61999') in 0.051999 seconds 
-  Import took 0.055637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.571130 seconds.
-  path: Assets/Models/Chess Set/Board/Mesh/board.fbx
-  artifactKey: Guid(ba44901e27656394a83c87ba14ddbdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Board/Mesh/board.fbx using Guid(ba44901e27656394a83c87ba14ddbdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4fd3a61985c0fc933ffecefa3e02b3') in 0.018241 seconds 
-  Import took 0.021301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.549399 seconds.
-  path: Assets/Models/Chess Set/Bishop/Mesh/bishop.fbx
-  artifactKey: Guid(9872e0b509ff2d04299e3fe92e0deacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chess Set/Bishop/Mesh/bishop.fbx using Guid(9872e0b509ff2d04299e3fe92e0deacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705bb30eb3f0125c62777ba195aef6bf') in 0.052959 seconds 
-  Import took 0.055619 seconds .
+  path: Assets/Scripts/Chess Game/BoardLayout.cs
+  artifactKey: Guid(48f373ab5ab47ec469fb6f81459930e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chess Game/BoardLayout.cs using Guid(48f373ab5ab47ec469fb6f81459930e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966c9f7f77636343e5c3a65b0c6088d9') in 0.025392 seconds 
+  Import took 0.028044 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
