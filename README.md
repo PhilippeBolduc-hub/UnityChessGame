@@ -1,6 +1,10 @@
+#Chess Game made in Unity using C#
+
 Project made by : Philippe Bolduc
 Start Date : 8th of June 2021
 Last Update : 10th of June 2021
+
+##Introduction
 
 Hello and welcome to this Unity Chess Game in 3D!
 
