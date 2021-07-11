@@ -17,6 +17,7 @@ public class MaterialSetter : MonoBehaviour
         }
     }
 
+    //Sets the material for a meshRenderer
     public void SetSingleMaterial(Material material)
     {
         meshRenderer.material = material;

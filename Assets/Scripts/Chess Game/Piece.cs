@@ -24,6 +24,8 @@ public abstract class Piece : MonoBehaviour
         materialSetter = GetComponent<MaterialSetter>();
         hasMoved = false;
     }
+
+    //Takes a material and sets it for this piece
     public void SetMaterial(Material material)
     {
         if (materialSetter == null)
@@ -52,6 +54,7 @@ public abstract class Piece : MonoBehaviour
         availableMoves.Add(coords);
     }
 
+    //Sets the information of a piece. It's coordinates, color, and the board it's on.
     public void SetData(Vector2Int coords, TeamColor team, Board board)
     {
         SetTeam(team);
@@ -60,11 +63,13 @@ public abstract class Piece : MonoBehaviour
         transform.position = board.CalculatePositionFromCoords(coords);
     }
 
+    //team setter
     private void SetTeam(TeamColor team)
     {
         this.team = team;
     }
 
+    //coords setter
     private void SetOccupiedSquare(Vector2Int coords)
     {
         this.occupiedSquare = coords;
