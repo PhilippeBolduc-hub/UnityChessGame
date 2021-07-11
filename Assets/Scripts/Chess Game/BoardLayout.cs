@@ -51,7 +51,7 @@ public class BoardLayout : ScriptableObject
 
     //Takes the index of a BoardSquareSetup object in the boardSquares array and returns it's color. 
     //If the index is invalid, returns the Black color with a log error
-    public TeamColor GetSquareTamColorAtIndex(int index)
+    public TeamColor GetSquareTeamColorAtIndex(int index)
     {
         bool invalidIndex = false;
         if (isIndexInvalid(index))
